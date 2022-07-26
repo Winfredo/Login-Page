@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('wallpaper.jpg');
+    overflow: hidden;
+    height: 100vh; 
+
+}
+
+
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    width: 350px;
+     background-color: white;
+     border-radius: 6px;
+   
+
+}
+
+.front{
+    padding: 15px;
+    border-bottom: 2px solid silver;
+    text-align: center; 
+}
+
+.text{
+    position: relative;
+    color: silver;
+    
+}
+.in{
+    
+}
+.
