@@ -37,7 +37,9 @@ body{
     color: silver;
     
 }
-.in{
-    
+input {
+    margin: 7px;
+    position: relative;
+    border-bottom: 1px solid gray;
+   
 }
-.
