@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 body{
     background-image: url('wallpaper.jpg');
@@ -16,7 +17,6 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    
     justify-content: center;
     transform: translate(-50%, -50%);
     width: 350px;
@@ -27,19 +27,26 @@ body{
 }
 
 .front{
-    padding: 15px;
+    padding: 10px;
     border-bottom: 2px solid silver;
     text-align: center; 
 }
 
-.text{
+.text form{
     position: relative;
-    color: silver;
+    border-bottom: 2px solid silver;
+     margin: 30px 0px;
     
 }
-input {
-    margin: 7px;
-    position: relative;
-    border-bottom: 1px solid gray;
+
+.container form{
    
+    padding: 0px 40px; 
+    box-sizing: border-box; 
 }
+
+form .text{
+    position: relative;
+    border-bottom: 2px solid silver;
+}
+
