@@ -20,8 +20,8 @@ body{
     justify-content: center;
     transform: translate(-50%, -50%);
     width: 350px;
-     background-color: white;
-     border-radius: 6px;
+    background-color: white;
+    border-radius: 6px;
    
 
 }
@@ -40,13 +40,37 @@ body{
 }
 
 .container form{
-   
-    padding: 0px 40px; 
+    width: 100%;
+    padding: 0px 80px; 
     box-sizing: border-box; 
-}
+} 
 
 form .text{
     position: relative;
     border-bottom: 2px solid silver;
 }
 
+form input{
+    /* width: 100%;
+   position: relative; 
+    border-bottom: 2px solid silver;  */
+}
+
+.login-button{
+    width: 70%;
+    height: 40px;
+    background-color: rgba(195, 170, 219, 0.849);
+    color: rgb(5, 0, 0);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+    font-weight: 400;
+    margin: 0px 50px;
+}
+
+.pass{
+    margin: 0px 50px;
+}
