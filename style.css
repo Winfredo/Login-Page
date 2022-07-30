@@ -71,6 +71,30 @@ form input{
     margin: 0px 50px;
 }
 
+.login-button:hover{
+    background-color: blueviolet;
+    transition: 0.5s;
+}
+
+
 .pass{
     margin: 0px 50px;
+}
+
+.last{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(211, 203, 203);
+    text-decoration: none;   
+    /* margin: 0px 60px; */
+}
+
+
+.last a{
+    text-decoration: none;
+}
+
+.text{
+    padding: 15px 10px;
+    text-align: center;
 }
