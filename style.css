@@ -17,6 +17,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
+    /* padding: 0px 0px; */
     justify-content: center;
     transform: translate(-50%, -50%);
     width: 350px;
@@ -25,6 +26,7 @@ body{
    
 
 }
+
 
 .front{
     padding: 10px;
@@ -49,12 +51,12 @@ form .text{
     position: relative;
     border-bottom: 2px solid silver;
 }
-
+/* 
 form input{
-    /* width: 100%;
+     width: 100%;
    position: relative; 
-    border-bottom: 2px solid silver;  */
-}
+    border-bottom: 2px solid silver; 
+}  */
 
 .login-button{
     width: 70%;
@@ -73,7 +75,7 @@ form input{
 
 .login-button:hover{
     background-color: blueviolet;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 
