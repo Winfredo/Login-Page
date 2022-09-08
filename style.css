@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     
+    
 }
 body{
     background-image: url('wallpaper.jpg');
@@ -17,46 +18,29 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    /* padding: 0px 0px; */
     justify-content: center;
     transform: translate(-50%, -50%);
     width: 350px;
     background-color: white;
-    border-radius: 6px;
-   
+    border-radius: 2%;  
+
+}
+
+.container form{
 
 }
 
 
 .front{
-    padding: 10px;
+    padding: 3px;
     border-bottom: 2px solid silver;
     text-align: center; 
 }
 
-.text form{
-    position: relative;
-    border-bottom: 2px solid silver;
-     margin: 30px 0px;
-    
+.front:hover{
+    color: rgb(155, 11, 11);
+    transition: 0.3s;
 }
-
-.container form{
-    width: 100%;
-    padding: 0px 80px; 
-    box-sizing: border-box; 
-} 
-
-form .text{
-    position: relative;
-    border-bottom: 2px solid silver;
-}
-/* 
-form input{
-     width: 100%;
-   position: relative; 
-    border-bottom: 2px solid silver; 
-}  */
 
 .login-button{
     width: 70%;
@@ -70,7 +54,7 @@ form input{
     font-family: 'Courier New', Courier, monospace;
     border-radius: 20px;
     font-weight: 400;
-    margin: 0px 50px;
+    /* margin: 0px 50px; */
 }
 
 .login-button:hover{
@@ -79,12 +63,8 @@ form input{
 }
 
 
-.pass{
-    margin: 0px 50px;
-}
-
 .last{
-    text-align: center;
+    /* text-align: center; */
     padding-top: 10px;
     color: rgb(211, 203, 203);
     text-decoration: none;   
@@ -97,6 +77,17 @@ form input{
 }
 
 .text{
-    padding: 15px 10px;
-    text-align: center;
+    /* padding: 15px 10px; */
+    /* text-align: center; */
+    cursor: pointer;
 }
+.in{
+    cursor: pointer;
+    margin-bottom: 5px;
+    
+}
+
+.in1{
+    margin-bottom: 3px;
+}
+
