@@ -1,17 +1,10 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-    
-}
 body{
+    margin: 0;
+    padding: 0;
     background-image: url('wallpaper.jpg');
     overflow: hidden;
-    height: 100vh; 
-
+    height: 100vh;  
 }
-
 
 .container{
     font-family: 'Courier New', Courier, monospace;
@@ -22,72 +15,40 @@ body{
     transform: translate(-50%, -50%);
     width: 350px;
     background-color: white;
-    border-radius: 2%;  
+    border-radius: 2% ;  
 
+}
+.container h1{
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid silver;
+    cursor: pointer;
+}
+
+.container h1:hover{
+    color: rgb(16, 186, 78);
+    transition: 0.5s;
 }
 
 .container form{
-
+    padding: 0 40px;
+    box-sizing: border-box;
 }
 
-
-.front{
-    padding: 3px;
-    border-bottom: 2px solid silver;
-    text-align: center; 
+ .textarea{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 35px 0;
 }
 
-.front:hover{
-    color: rgb(155, 11, 11);
-    transition: 0.3s;
-}
-
-.login-button{
-    width: 70%;
-    height: 40px;
-    background-color: rgba(195, 170, 219, 0.849);
-    color: rgb(5, 0, 0);
+.textarea input{
+    height: 35px;
+    width: 100%;
+    font-size: 15px;
+    padding-left: 5px;
     outline: none;
     border: none;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: 'Courier New', Courier, monospace;
-    border-radius: 20px;
-    font-weight: 400;
-    /* margin: 0px 50px; */
+
 }
 
-.login-button:hover{
-    background-color: blueviolet;
-    transition: 0.4s;
-}
-
-
-.last{
-    /* text-align: center; */
-    padding-top: 10px;
-    color: rgb(211, 203, 203);
-    text-decoration: none;   
-    /* margin: 0px 60px; */
-}
-
-
-.last a{
-    text-decoration: none;
-}
-
-.text{
-    /* padding: 15px 10px; */
-    /* text-align: center; */
-    cursor: pointer;
-}
-.in{
-    cursor: pointer;
-    margin-bottom: 5px;
-    
-}
-
-.in1{
-    margin-bottom: 3px;
-}
 
