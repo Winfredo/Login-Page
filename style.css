@@ -16,6 +16,7 @@ body{
     width: 350px;
     background-color: white;
     border-radius: 2% ;  
+    font-family:'Courier New', Courier, monospace;
 
 }
 .container h1{
@@ -23,7 +24,10 @@ body{
     padding-bottom: 20px;
     border-bottom: 1px solid silver;
     cursor: pointer;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 
 .container h1:hover{
     color: rgb(16, 186, 78);
@@ -48,7 +52,39 @@ body{
     padding-left: 5px;
     outline: none;
     border: none;
+    background: none;
 
 }
 
+.textarea label{
+    position: absolute;
+    top: 50%;
+    left: 6px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #adadad;
+    pointer-events: none;
+}
+
+.textarea span::before{
+    content: '';
+    position: absolute;
+    top: 37px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+     background: #2691d9;
+     transition: 1s;
+}
+.textarea input:focus ~ label,
+.textarea input:valid ~ label{
+    top: -5px;
+    color:#2691d9;
+}
+
+
+.textarea input:focus ~ span::before,
+.textarea input:valid ~ span::before{
+    width: 100%;
+}
 
