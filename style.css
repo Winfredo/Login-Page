@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     padding: 0;
@@ -21,7 +23,7 @@ body{
 }
 .container h1{
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     border-bottom: 1px solid silver;
     cursor: pointer;
     font-weight: 500;
@@ -42,7 +44,7 @@ body{
  .textarea{
     position: relative;
     border-bottom: 2px solid #adadad;
-    margin: 35px 0;
+    margin-bottom: 20px ;
 }
 
 .textarea input{
@@ -88,3 +90,44 @@ body{
     width: 100%;
 }
 
+.passcode{
+    color: #adadad;
+    padding-bottom: 10px;
+
+}
+.passcode:hover{
+    text-decoration: underline;
+}
+
+.login-button{
+    width: 90%;
+    height: 40px;
+    margin-bottom: 10px;
+    color: black;
+    background-color: rgba(195, 170, 219, 0.849);
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+   font-size: 16px;
+   font-weight: 400;
+   font-style: normal;
+   font-family: 'Courier New', Courier, monospace;
+   justify-content: center;
+   text-align: center;
+}
+
+.login-button:hover{
+   background-color: rgba(158, 36, 219, 0.849);
+    transition: 0.5s;
+}
+
+.ending{
+    color: #adadad;
+   
+
+}
+
+.ending a{
+    text-decoration: none;
+}
